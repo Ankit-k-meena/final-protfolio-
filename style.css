@@ -1,37 +1,37 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    color: #030e12;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     line-height: 1.6;
 }
 
 h1, h2, h3 {
-    color: #333;
-    margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 15px;
+    background-color: #fcde67;
 }
 
+
 a {
-    color: #007BFF;
+    color: #5bccf6;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Header Styles */
 header {
-    background: linear-gradient(to right, #0062E6, #33AEFF);
-    color: #463e3e;
+    background: linear-gradient(to right, #5bccf6);
+    color: #030e12;
     padding: 2px 0;
 }
 
@@ -54,29 +54,28 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #5bccf6;
     font-weight: bold;
     text-transform: uppercase;
     transition: color 0.3s ease-in-out;
 }
 
 header nav ul li a:hover {
-    color: #ffcc00;
+    color: #030e12;
 }
 
 /* Hero Section */
 #hero {
-    color: #00BCF2;
+    color: #5bccf6;
     text-align: center;
     padding: 100px 0;
-    background: url('https://source.unsplash.com/1600x900/?technology,web-development') no-repeat center center/cover;
 }
 
 #hero .image-container {
     height: 17rem;
-    border: 2px solid #00BCF2;
+    border: 2px solid #5bccf6;
     border-radius: 50%;
-    background-color: #7dae9b;
+    background-color: #fcde67;
     overflow: hidden;
     margin: 0 auto 20px;
     width: 17rem;
@@ -90,18 +89,18 @@ header nav ul li a:hover {
 #hero h2 {
     font-size: 2.5em;
     margin-bottom: 10px;
-    color: #504848;
+    color: #030e12;
 }
 
 #hero p {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #2c1a91;
+    color: #5bccf6;
 }
 
 #hero .btn {
-    background-color: #ffcc00;
-    color: #333;
+    background-color: #fcde67;
+    color: #030e12;
     padding: 10px 20px;
     font-size: 1.2em;
     border-radius: 25px;
@@ -110,7 +109,7 @@ header nav ul li a:hover {
 }
 
 #hero .btn:hover {
-    background-color: #ff9900;
+    background-color: #fcde67;
 }
 
 /* Section Styles */
@@ -125,17 +124,17 @@ section {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #def2f8;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px (0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px #030e12;
 }
 
 .project-card img {
@@ -146,17 +145,17 @@ section {
 
 .project-card h3 {
     margin-top: 0;
-    color: #007BFF;
+    color: #030e12;
 }
 
 .project-card p {
-    color: #666;
+    color: #0f21bd;
     margin-bottom: 20px;
 }
 
 .project-card .btn {
-    background-color: #ffcc00;
-    color: #333;
+    background-color: #fcde67;
+    color: #030e12;
     padding: 10px 15px;
     font-size: 1em;
     border-radius: 25px
